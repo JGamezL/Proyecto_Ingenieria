@@ -10,8 +10,6 @@ public class Azucar extends DecoradorBebida {
 
     @Override
     public double costo() {
-        return bebida.costo() + 1.0;
+        return bebida.costo() + 2.0;
     }
 }
-
-//Hola Comentario extra
